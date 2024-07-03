@@ -108,7 +108,7 @@ public class SetsClase {
         conjunto.add("Carro");
         conjunto.add("Juan");;
         conjunto.add("Polo");
-        System.out.println("TreeSet "+ conjunto);
+        System.out.println("TreeSet con orden inverso: "+ conjunto);
 
 
     }
