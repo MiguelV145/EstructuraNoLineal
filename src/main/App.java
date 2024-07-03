@@ -3,6 +3,7 @@ package main;
 import main.Materia.Controllers.AVLTree;
 import main.Materia.Controllers.ArbolBinario;
 import main.Materia.Controllers.Graph;
+import main.Materia.Controllers.SetsClase;
 import main.Materia.Models.Node;
 import main.Materia.Models.NodeGraph;
 
@@ -51,8 +52,10 @@ public class App {
         tree.printTree();
     
         runGraph();
-    }
 
+        runSets();
+    }
+   
     private static void runGraph() {
        Graph grafo = new Graph();
 
@@ -88,5 +91,16 @@ public class App {
         // Imprimir la matriz de adyacencia
         System.out.println("Matriz de adyacencia:");
         grafo.printAdjacencyMatrix();
+
+
+        System.out.println("______________________________________________________");
+
+    
+
     }
+    private static void runSets(){
+        new SetsClase();
+    }
+
+  
 }
